@@ -16,3 +16,5 @@ print(no)
 
 i = a.index(45)
 print(i)
+
+print(len(a))
