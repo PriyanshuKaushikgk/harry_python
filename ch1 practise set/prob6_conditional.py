@@ -111,9 +111,9 @@
 
 #Q.7  write a program to find out whether a given post is talking about "Harry" or not.
 
-post  = input("Enter post:")
-if ("Harry".lower() in post.lower()):
-    print("This post is talking about harry")
+# post  = input("Enter post:")
+# if ("Harry".lower() in post.lower()):
+#     print("This post is talking about harry")
 
-else:
-    print("not valid")
+# else:
+#     print("not valid")

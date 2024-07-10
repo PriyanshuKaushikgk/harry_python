@@ -117,22 +117,31 @@ print(type(s))   #  dicitonary
 
 
 
-d = {}
+# d = {}
 
-name = input("Enter the name:")
-lang = input("enter language:")
-d.update({name:lang})
+# name = input("Enter the name:")
+# lang = input("enter language:")
+# d.update({name:lang})
 
-name = input("Enter the name:")
-lang = input("enter language:")
-d.update({name:lang})
+# name = input("Enter the name:")
+# lang = input("enter language:")
+# d.update({name:lang})
 
-name = input("Enter the name:")
-lang = input("enter language:")
-d.update({name:lang})
+# name = input("Enter the name:")
+# lang = input("enter language:")
+# d.update({name:lang})
 
-name = input("Enter the name:")
-lang = input("enter language:")
-d.update({name:lang})
+# name = input("Enter the name:")
+# lang = input("enter language:")
+# d.update({name:lang})
 
-print(d)
+# print(d)
+
+
+
+
+# 9 ., ------------>>>>>  can you change the values inside a list which is contained in set s?
+# s = {8,7,12,"harry",[1,2]}
+
+# No, you cannot change the values inside a list that is contained in a set because sets in Python can only contain immutable (hashable) elements. Lists are mutable and therefore cannot be elements of a set. If you try to create such a set, it will raise a TypeError.
+
